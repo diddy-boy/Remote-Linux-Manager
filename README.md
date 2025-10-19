@@ -1,4 +1,4 @@
-An Ubuntu Linux based tool to adminsitrate multiple Ubuntu based Linux systems across the same home network.
+An Ubuntu Linux based tool to administrate multiple Ubuntu based Linux systems across the same home network.
 I was waiting for Zorin to release Zorin Grid so I ended up making my own.
 Detailed Project Functionality
 The Remote Linux Manager is a secure, multi-threaded GUI application designed for the mass administration of Linux PCs over SSH.
