@@ -32,9 +32,9 @@ Concurrency	Python's threading	Manages simultaneous connections, status checks, 
 Startup & Setup	Shell Script (manage-pcs.sh)	Handles the essential pre-flight checks: ensures Python/GTK dependencies are installed, creates a virtual environment (venv), and installs required Python packages (paramiko, cryptography) for a simple start.
 Configuration	CSS Styling	Uses a custom CSS provider to apply the distinctive Nord color palette and ensure a clean, modern look.
 
-Create Snappshot and Revert to snapshot
-If a user selects a pc from the list and then selects to create a snapshot an apt --list is performed and stored in the local databse against that pc.
-then at a later date the user selectsw the same pc and selects revert to snapshot, the apt --list is performed again but then a diff is performed thoo generate the sudo appt remove list.
+Create Snapshot and Revert to snapshot functionality
+If a user selects a pc from the list and then selects to create a snapshot, an apt --list is performed and stored in the local databse against that pc.
+then at a later date the user selects the same pc and selects revert to snapshot, the apt --list is performed again but then a diff is performed to generate the sudo apt remove list.
 this will then revert the pc back to its state when the snapshot was performed regardless of software versions.  
 
 Just unzip the attached file and this will make a Manage-PC directory.
