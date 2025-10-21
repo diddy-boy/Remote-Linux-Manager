@@ -1,4 +1,4 @@
-An Ubuntu Linux based tool to administrate multiple Ubuntu based Linux systems across the same home network.
+A Linux based tool or windows used to administrate multiple Ubuntu based or derived Linux systems across the same home network.
 I was waiting for Zorin to release Zorin Grid so I ended up making my own.
 Detailed Project Functionality
 The Remote Linux Manager is a secure, multi-threaded GUI application designed for the mass administration of Linux PCs over SSH.
@@ -36,6 +36,34 @@ Create Snapshot and Revert to snapshot functionality
 If a user selects a pc from the list and then selects to create a snapshot, an apt --list is performed and stored in the local databse against that pc.
 then at a later date the user selects the same pc and selects revert to snapshot, the apt --list is performed again but then a diff is performed to generate the sudo apt remove list.
 this will then revert the pc back to its state when the snapshot was performed regardless of software versions.  
+
+Requirements for running under Windows :-
+Users will need to install Python and MSYS2.
+batch file has more details :-
+REM ##########################################################################################
+REM #                                  USER SETUP NOTES                                      #
+REM ##########################################################################################
+REM # To run this script, the user MUST perform the following one-time setup steps:
+REM #
+REM #   Install python for windows (python 3.13 worked for me, then :-
+REM #
+REM # 1. INSTALL MSYS2: Download and install MSYS2 from https://www.msys2.org/
+REM #    - Install to the default path: C:\msys64
+REM #
+REM # 2. INSTALL ALL DEPENDENCIES (CRITICAL STEP):
+REM #    - Open the 'MSYS2 MinGW x64' terminal (NOT 'MSYS2 MSYS').
+REM #    - Run the following commands to install ALL required packages:
+REM #
+REM #    a) Update the system:
+REM #       pacman -Syu
+REM #
+REM #    b) Install GTK, PyGObject, Paramiko, and Cryptography packages:
+REM #       pacman -S mingw-w64-x86_64-gtk4 mingw-w64-x86_64-python-gobject
+REM #                 mingw-w64-x86_64-python-paramiko mingw-w64-x86_64-python-cryptography
+REM #
+REM # 3. RERUN THIS BATCH FILE: The script will now use the MSYS2-installed Python
+REM #    which has all pre-compiled dependencies, and launch the application.
+REM ##########################################################################################
 
 Just unzip the attached file and this will make a Manage-PC directory.
 Within this folder run up the Manage-pcs.sh script
