@@ -68,3 +68,16 @@ REM ############################################################################
 Just unzip the attached file and this will make a Manage-PC directory.
 Within this folder run up the linux.sh script if running from Linux or window.bat if on windows.
 You may get prompted for sudo password on first run up to install the supporting files (python 3, pip etc) but subsequant runs wont ask you for sudo password and the app will just run up.
+
+## Backup & Migration (if yoou want to move this tool to another pc keeping the database and secret hash key
+
+To backup your PC list and move to another machine:
+
+1. Backup these files from your installation directory along with linux.sh, manager.py and windows.bat:
+   - `pc_manager.db` (your PC list)
+   - `.secret.key` (required to decrypt passwords)
+   - **Important**: These files contain sensitive data!
+
+2. On the new machine, run the launcher once to create the folder structure
+3. Replace the generated `.secret.key` and `pc_manager.db` with your backups
+4. Your PC list will be restored with all credentials intact
