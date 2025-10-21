@@ -3,6 +3,8 @@ I was waiting for Zorin to release Zorin Grid so I ended up making my own.
 Detailed Project Functionality
 The Remote Linux Manager is a secure, multi-threaded GUI application designed for the mass administration of Linux PCs over SSH.
 
+“Designed for Linux tinkerers and homelabbers who think Ansible is overkill.”
+
 Centralized PC Management
 Storage: Stores the hostname (or IP), username, and password for multiple remote PCs in a local SQLite database (pc_manager.db).
 Security: Passwords are not stored in plaintext; they are secured using Fernet symmetric encryption. A unique key (.secret.key) is generated and used to encrypt/decrypt credentials.
