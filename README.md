@@ -66,5 +66,5 @@ REM #    which has all pre-compiled dependencies, and launch the application.
 REM ##########################################################################################
 
 Just unzip the attached file and this will make a Manage-PC directory.
-Within this folder run up the Manage-pcs.sh script
+Within this folder run up the linux.sh script if running from Linux or window.bat if on windows.
 You may get prompted for sudo password on first run up to install the supporting files (python 3, pip etc) but subsequant runs wont ask you for sudo password and the app will just run up.
