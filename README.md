@@ -5,6 +5,9 @@ The Remote Linux Manager is a secure, multi-threaded GUI application designed fo
 
 “Designed for Linux tinkerers and homelabbers who think Ansible is overkill.”
 
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/0yez1mJtKGY/hqdefault.jpg)](https://www.youtube.com/watch?v=0yez1mJtKGY)
+
 Centralized PC Management
 Storage: Stores the hostname (or IP), username, and password for multiple remote PCs in a local SQLite database (pc_manager.db).
 Security: Passwords are not stored in plaintext; they are secured using Fernet symmetric encryption. A unique key (.secret.key) is generated and used to encrypt/decrypt credentials.
