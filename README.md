@@ -40,32 +40,10 @@ then at a later date the user selects the same pc and selects revert to snapshot
 this will then revert the pc back to its state when the snapshot was performed regardless of software versions.  
 
 Requirements for running under Windows :-
-Users will need to install Python and MSYS2.
-batch file has more details :-
-REM ##########################################################################################
-REM #                                  USER SETUP NOTES                                      #
-REM ##########################################################################################
-REM # To run this script, the user MUST perform the following one-time setup steps:
-REM #
-REM #   Install python for windows (python 3.13 worked for me, then :-
-REM #
-REM # 1. INSTALL MSYS2: Download and install MSYS2 from https://www.msys2.org/
-REM #    - Install to the default path: C:\msys64
-REM #
-REM # 2. INSTALL ALL DEPENDENCIES (CRITICAL STEP):
-REM #    - Open the 'MSYS2 MinGW x64' terminal (NOT 'MSYS2 MSYS').
-REM #    - Run the following commands to install ALL required packages:
-REM #
-REM #    a) Update the system:
-REM #       pacman -Syu
-REM #
-REM #    b) Install GTK, PyGObject, Paramiko, and Cryptography packages:
-REM #       pacman -S mingw-w64-x86_64-gtk4 mingw-w64-x86_64-python-gobject
-REM #                 mingw-w64-x86_64-python-paramiko mingw-w64-x86_64-python-cryptography
-REM #
-REM # 3. RERUN THIS BATCH FILE: The script will now use the MSYS2-installed Python
-REM #    which has all pre-compiled dependencies, and launch the application.
-REM ##########################################################################################
+
+updated and moved away from gtk library so the only requirement is now python on Linux or Windows.
+the Windows.bat file now checks for python and installs any extra software on first run up
+Same for Linux.sh as well
 
 Just unzip the attached file and this will make a Manage-PC directory.
 Within this folder run up the linux.sh script if running from Linux or window.bat if on windows.
