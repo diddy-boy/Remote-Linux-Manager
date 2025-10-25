@@ -28,7 +28,7 @@ Deploy Software: Prompts the user for a list of packages and runs the correspond
 Reboot/Shutdown: Runs non-blocking power control commands (sudo -S reboot now & or sudo -S shutdown now &) followed by immediate monitoring.
 
 Technologies and Libraries Used
-GUI Framework	PyGObject (GTK 3/4)	Provides the cross-platform Graphical User Interface. The application is designed to be compatible with both GTK 3 and the newer GTK 4 APIs.
+GUI Framework		tkinter	- The main module for creating the Graphical User Interface (GUI), including the root window, frames, and basic widgets.
 Programming Language	Python 3	The core logic of the application.
 Remote Access	Paramiko	The essential Python library for establishing secure and stable SSH connections and executing remote commands.
 Data Persistence	SQLite 3	Used for the local, embedded database to store PC configuration details.
