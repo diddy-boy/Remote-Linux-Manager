@@ -48,6 +48,10 @@ updated and moved away from gtk library so the only requirement is now python on
 the Windows.bat file now checks for python and installs any extra software on first run up
 Same for Linux.sh as well
 
+Added support for running from a Mac OS system. just run mac.sh to run the program.
+
+Should now work on Windows, Linux, Chrome OS (using linux subsystem) and Mac OS.
+
 Just unzip the attached file and this will make a Manage-PC directory.
 Within this folder run up the linux.sh script if running from Linux or window.bat if on windows.
 You may get prompted for sudo password on first run up to install the supporting files (python 3, pip etc) but subsequant runs wont ask you for sudo password and the app will just run up.
