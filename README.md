@@ -19,6 +19,7 @@ Non-Blocking Status Check: Runs multi-threaded checks to determine if a PC is re
 Update Detection: Executes a command (apt update followed by apt list --upgradable) to determine the exact number of pending software updates on each machine.
 Real-Time Logging: Provides a live activity log that displays connection attempts, command output, errors (Auth/SSH/Timeout), and success messages.
 Power Cycle Monitoring: After a Reboot or Shutdown command is initiated, a dedicated monitoring thread polls the PC every 10 seconds to track its status (e.g., "Rebooting (Offline)") and confirms its successful return to service or final offline state.
+Upload a file / script to remote linux pc and can also execute that script file after uploading with sudo password detection.
 
 Mass Action Execution
 Multi-Select: Users can select and execute actions on multiple PCs simultaneously.
