@@ -2006,7 +2006,7 @@ class PCManager:
                     self.log_message(f"[INFO] {alias}: Sudo detected. Injecting password...")
                     cmd = f"sudo -S sh -c 'yes | {remote_path}' <<EOF\n{password}\nEOF"
                 else:
-                    cmd = f"yes | {remote_path}"
+                    cmd = f"yes | {remote_path}" 
 
                 stdin, stdout, stderr = ssh.exec_command(cmd)
                 output = stdout.read().decode().strip()
