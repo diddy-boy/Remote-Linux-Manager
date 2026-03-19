@@ -62,4 +62,4 @@ ECHO Please install Python 3 from www.python.org/downloads/windows/ (and ensure 
 :APP_FINISHED
 ECHO.
 ECHO Script finished. Press any key to close this window.
-PAUSE > nul
+PAUSE > nul 
