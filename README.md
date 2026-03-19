@@ -69,3 +69,11 @@ To backup your PC list and move to another machine:
 2. On the new machine, run the launcher once to create the folder structure
 3. Replace the generated `.secret.key` and `pc_manager.db` with your backups
 4. Your PC list will be restored with all credentials intact
+
+📥 One-Click Download
+
+Click here to download the project as a ZIP file
+
+Unzip the folder.
+
+Run windows.bat (Windows), linux.sh (Linux), or mac.sh (macOS).
