@@ -28,6 +28,8 @@ Run Update: Executes a full system update (apt update; apt-get upgrade -y) on th
 Deploy Software: Prompts the user for a list of packages and runs the corresponding installation command (apt-get install -y) on selected machines.
 Reboot/Shutdown: Runs non-blocking power control commands (sudo -S reboot now & or sudo -S shutdown now &) followed by immediate monitoring.
 
+Added a status bar that reports the current status of all pc's and autchecks every 5 minutes
+
 Technologies and Libraries Used
 GUI Framework		tkinter	- The main module for creating the Graphical User Interface (GUI), including the root window, frames, and basic widgets.
 Programming Language	Python 3	The core logic of the application.
