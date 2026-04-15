@@ -30,6 +30,12 @@ Reboot/Shutdown: Runs non-blocking power control commands (sudo -S reboot now & 
 
 Added a status bar that reports the current status of all pc's and autchecks every 5 minutes
 
+Ability to Clone a pc from a snapshot to a target pc.
+New version adds a powerful clone PC option (rapid deploy).
+Uses a snapshot from a pc in the list view (that a user can select) and will clone the same software onto a selected pc.
+Will also create users and groups also but new users will not have a password set until a user logs in on the target pc.
+Very easy way to take a new pc just added to the network up to a configured pc (with a snapshot) in one hit.
+
 Technologies and Libraries Used
 GUI Framework		tkinter	- The main module for creating the Graphical User Interface (GUI), including the root window, frames, and basic widgets.
 Programming Language	Python 3	The core logic of the application.
