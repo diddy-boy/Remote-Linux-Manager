@@ -40,7 +40,7 @@ The Clone PC feature intentionally does NOT copy home directories, configuration
 This avoids hardware-specific breakage, security issues, and unintended side effects, while still delivering a system that is functionally equivalent for further customisation.
 
 Technologies and Libraries Used
-GUI Framework		tkinter	- The main module for creating the Graphical User Interface (GUI), including the root window, frames, and basic widgets.
+GUI Framework		tkinter	- (Mac OS has its own but we cater for that too) The main module for creating the Graphical User Interface (GUI), including the root window, frames, and basic widgets.
 Programming Language	Python 3	The core logic of the application.
 Remote Access	Paramiko	The essential Python library for establishing secure and stable SSH connections and executing remote commands.
 Data Persistence	SQLite 3	Used for the local, embedded database to store PC configuration details.
