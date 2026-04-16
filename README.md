@@ -65,7 +65,7 @@ Added support for running from a Mac OS system. just run mac.sh to run the progr
 Should now work on Windows, Linux, Chrome OS (using linux subsystem) and Mac OS.
 
 Just unzip the attached file and this will make a Manage-PC directory.
-Within this folder run up the linux.sh script if running from Linux or window.bat if on windows.
+Within this folder run up the linux.sh script if running from Linux or window.bat if on windows or Mac.sh if running from Mac OS.
 You may get prompted for sudo password on first run up to install the supporting files (python 3, pip etc) but subsequant runs wont ask you for sudo password and the app will just run up.
 
 ## Backup & Migration (if you want to move this tool to another pc keeping the database and secret hash key
