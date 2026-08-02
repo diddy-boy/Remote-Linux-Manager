@@ -5,6 +5,9 @@ The Remote Linux Manager is a secure, multi-threaded GUI application designed fo
 
 “Designed for Linux tinkerers and homelabbers who think Ansible is overkill.”
 
+Agentless Design
+Remote Linux Manager requires no software installation on managed linux systems. If a machine supports SSH, it can be administered without deploying or maintaining remote agents. no extra software to install on these remote pc's.
+
 ## Demo Video
 [![Demo Video](https://img.youtube.com/vi/0yez1mJtKGY/hqdefault.jpg)](https://www.youtube.com/watch?v=0yez1mJtKGY)
 
