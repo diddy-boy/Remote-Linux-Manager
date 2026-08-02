@@ -1,7 +1,8 @@
-A Linux based tool or windows used to administrate multiple Ubuntu based or derived Linux systems across the same home network.
+A Linux based tool or windows used to administrate multiple Ubuntu based or Debian derived Linux systems across the same home network.
 I was waiting for Zorin to release Zorin Grid so I ended up making my own.
 Detailed Project Functionality
 The Remote Linux Manager is a secure, multi-threaded GUI application designed for the mass administration of Linux PCs over SSH.
+This tool can be ran from Linux, Mac or Windows to administrate Debian based / derived linux pc's.
 
 “Designed for Linux tinkerers and homelabbers who think Ansible is overkill.”
 
