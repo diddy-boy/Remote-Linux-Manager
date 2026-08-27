@@ -57,8 +57,9 @@ bash
 bash
    # macOS
    ./mac.sh
-bat
-   :: Windows
+
+bat File for windows
+   # Windows
    windows.bat
 
 Each launcher checks for Python and installs any required packages (paramiko, cryptography) automatically on first run — you may be prompted for your sudo password once during that initial setup, but not on subsequent runs.
