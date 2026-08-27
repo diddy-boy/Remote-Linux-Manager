@@ -58,7 +58,6 @@ bash
    # macOS
    ./mac.sh
 
-bat File for windows
    # Windows
    windows.bat
 
